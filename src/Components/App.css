@@ -1,5 +1,6 @@
 .App {
+  max-height: 100vh;
   display: grid;
-  grid-template-rows: 88px 6px 1fr;
+  grid-template-rows: 100px 6px 1fr;
 }
 
