@@ -11,33 +11,35 @@ class NavBar extends Component {
     return (
       <div className="nav-bar">
         <div className= "profile-name-info">
-        
+          <p className="name">Jack Laird</p>
         </div>
-        <NavLink to='/'> 
-          <div className="nav-bar-link-container link-home">
-            HOME 
-          </div>
-        </NavLink>
-        <NavLink to='/portfolio'> 
-          <div className="nav-bar-link-container">
-          PORTFOLIO 
-          </div>
-        </NavLink>
-        <NavLink to='/about'> 
-          <div className="nav-bar-link-container">
-          ABOUT 
-          </div>
-        </NavLink>
-        <NavLink to='/resume'> 
-          <div className="nav-bar-link-container">
-          RESUME 
-          </div>
-        </NavLink>
-        <NavLink to='/contact'> 
-          <div className="nav-bar-link-container">
-          CONTACT 
-          </div>
-        </NavLink>
+        <div className="nav-link-container">
+          <NavLink to='/'> 
+            <div className="nav-bar-link-container link-home">
+              HOME 
+            </div>
+          </NavLink>
+          <NavLink to='/portfolio'> 
+            <div className="nav-bar-link-container">
+            PORTFOLIO 
+            </div>
+          </NavLink>
+          <NavLink to='/about'> 
+            <div className="nav-bar-link-container">
+            ABOUT 
+            </div>
+          </NavLink>
+          <NavLink to='/resume'> 
+            <div className="nav-bar-link-container">
+            RESUME 
+            </div>
+          </NavLink>
+          <NavLink to='/contact'> 
+            <div className="nav-bar-link-container">
+            CONTACT 
+            </div>
+          </NavLink>
+        </div>
       </div>
     )
   }

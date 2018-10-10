@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import logo from '../logo.svg';
 import './App.css';
 import NavBar from '../Containers/NavBar/NavBar';
+import NavBarBorder from '../Containers/NavBarBorder/NavBarBorder';
 import Home from '../Containers/Home/Home';
 import Portfolio from '../Containers/Portfolio/Portfolio';
 import Contact from '../Containers/Contact/Contact';
@@ -13,6 +13,7 @@ class App extends Component {
     return (
       <div className="App">
         <Route path='/' component={NavBar} />
+        <Route path='/' component={NavBarBorder} />
         <Route exact path='/' component={Home} />
         <Route path='portfolio' component={Portfolio} />
         <Route path='contact' component={Contact} />
