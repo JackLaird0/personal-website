@@ -1,0 +1,13 @@
+.resume-container {
+  min-height: 88vh;
+  background-color: #221f17;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.resume-image {
+  height: 690px;
+  border-radius: 15px;
+  box-shadow: 4px 6px 4px black;
+}
