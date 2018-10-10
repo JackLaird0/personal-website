@@ -17,9 +17,46 @@
 }
 
 .nav-link-container {
-  width: 400px;
+  width: 600px;
   display: flex;
   justify-content: space-between;
 }
 
+.nav-bar-link-container {
+  font-family: 'Open Sans', sans-serif;
+  height: 54px;
+  font-size: 22px;
+  font-weight: 600;
+  border-radius: 5px;
+  display: flex;
+  align-items: center; 
+  cursor: pointer;
+  color: #ffffff;
+  border-bottom: solid 4px rgba(255, 255, 255, 0);
+  transition: 0.4s;
+}
 
+.link-home {
+  border-bottom-color: #e6bb2e;
+}
+
+.link-home:hover {
+  border-bottom-color: #e6bb2e;
+}
+
+.link-portfolio:hover {
+  border-bottom-color: #e76360;
+}
+
+.link-about:hover {
+  border-bottom-color: #e83779;
+}
+
+.link-resume:hover{
+  border-bottom-color: #a274aa;
+}
+
+
+.link-contact:hover {
+  border-bottom-color: #52b9e1;
+}
