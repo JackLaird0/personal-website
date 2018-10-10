@@ -12,7 +12,7 @@ class Home extends Component {
         <div className="home-content-container">
           <h1 className="introduction-title">HELLO, MY NAME IS JACK</h1>
           <p className="introduction">
-          Our phones and computers have become reflections of our personalities, our iterests and our identities. I am a Software Developer with a passion for creating engaging user experiences that are thoughtfully designed. I thrive in environments where I can continue to grow and enhance my skills as a developer while building products that people love. Feel free to check out what I'm working on and shoot me a message on LinkedIn or twitter. I look forward to chatting with you soon! 
+          Our phones and computers have become reflections of our personalities, our iterests and our identities. I am a Software Engineer with a passion for creating engaging user experiences that are thoughtfully designed. I thrive in environments where I can continue to grow and enhance my skills as a developer while building products that people love. Feel free to check out what I'm working on and shoot me a message on LinkedIn or Twitter. I look forward to chatting with you soon! 
           </p>
           <div className="social-links">
             <a

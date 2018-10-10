@@ -20,7 +20,7 @@
 .introduction-title {
   color: #fff;
   font-family: 'Open Sans', sans-serif;
-  margin: 40px 0;
+  margin: 50px 0;
 }
 
 .introduction {
@@ -49,46 +49,35 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #221f17;
+  color: #fff;
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 25px;
   border-radius: 3px;
   box-shadow: 0px 5px 8px rgb(36, 34, 34);
   transition: 0.5s;
-  margin: 40px 0;
+  margin: 30px 0;
 }
 
 .github:hover,
 .twitter:hover,
 .linkedin:hover {
   border-bottom: 3px solid #00000000;
-  box-shadow: 0px 2px 2px rgb(0, 0, 0);
+  box-shadow: 0px 2px 4px rgb(0, 0, 0);
 }
 
 .github {
-  background-color: #e6bb2e;
+  background: -webkit-linear-gradient(left, #e6bb2e,#e76360);
   border-bottom: 3px solid #cea82c;
 }
 
-.github:hover {
-  background-color: #cea82c;
-}
-
 .twitter {
-  background-color: #e83779;
+  background: -webkit-linear-gradient(left,#e76360, #e83779);
   border-bottom: 3px solid #a82757;
 }
 
-.twitter:hover {
-  background-color: #a82757;
-}
-
 .linkedin {
-  background-color: #52b9e1;
+  background: -webkit-linear-gradient(left,#a274aa, #52b9e1);
   border-bottom: 3px solid #4090af;
 }
 
-.linkedin:hover {
-  background-color: #4090af;
-}
