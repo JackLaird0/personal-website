@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import resume from '../../assets/resume.png';
+import './Resume.css';
 
 class Resume extends Component {
   constructor() {
@@ -7,8 +9,8 @@ class Resume extends Component {
 
   render() {
     return (
-      <div>
-        
+      <div className="resume-container">
+        <img src={resume} alt="Jack Laird Resume" className="resume-image" />
       </div>
     )
   }
