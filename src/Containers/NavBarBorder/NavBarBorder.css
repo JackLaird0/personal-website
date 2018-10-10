@@ -1,0 +1,4 @@
+.nav-border {
+  height: 6px;
+  background-image: -webkit-linear-gradient(left, #e6bb2e,#e83779,#52b9e1);
+}
