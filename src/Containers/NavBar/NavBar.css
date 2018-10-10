@@ -1,6 +1,13 @@
+.nav-bar,
+.profile-name-info,
+.nav-link-container,
+.nav-bar-link-container {
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+
 .nav-bar {
   background-color: #221f17;
-  display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 40px;
@@ -8,9 +15,13 @@
 }
 
 .profile-name-info {
-  display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.name,
+.title {
+  margin: 0
 }
 
 .name {
@@ -18,34 +29,24 @@
   background: -webkit-linear-gradient(left, #e6bb2e,#e83779,#52b9e1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  margin: 0;
 }
 
 .title {
-  /* background: -webkit-linear-gradient(left, #e6bb2e,#e83779,#52b9e1);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
-  font-family: 'Open Sans', sans-serif;
-  color: white;
-  margin: 0;
+  color: #ffffff;
   font-size: 23px;
 }
 
 .nav-link-container {
   width: 800px;
-  display: flex;
   justify-content: space-between;
 }
 
 .nav-bar-link-container {
-  font-family: 'Open Sans', sans-serif;
   height: 54px;
   font-size: 22px;
   font-weight: 600;
   border-radius: 4px;
-  display: flex;
   align-items: center; 
   cursor: pointer;
   color: #ffffff;
