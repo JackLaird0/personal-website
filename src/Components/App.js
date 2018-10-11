@@ -6,6 +6,7 @@ import Home from '../Containers/Home/Home';
 import Portfolio from '../Containers/Portfolio/Portfolio';
 import Contact from '../Containers/Contact/Contact';
 import Resume from '../Containers/Resume/Resume';
+import About from '../Containers/About/About';
 import { Route } from 'react-router-dom';
 
 class App extends Component {
@@ -18,6 +19,7 @@ class App extends Component {
         <Route path='/portfolio' component={Portfolio} />
         <Route path='/contact' component={Contact} />
         <Route path='/resume' component={Resume} />
+        <Route path='/about' component={About} />
       </div>
     );
   }
