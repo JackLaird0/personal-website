@@ -1,4 +1,32 @@
 .contact-page {
-  min-height: 89vh;
+  min-height: 88vh;
   background-color: #221f17;
+  display: flex;
+  /* flex-direction: column; */
+  align-items: center;
+  justify-content: center;
 }
+
+.contact-border:hover {
+  box-shadow: 0 3px 5px black;
+}
+
+.contact-border {
+  height: 500px;
+  width: 800px;
+  background: -webkit-linear-gradient(right, #e6bb2e,#e83779,#52b9e1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  box-shadow:  0 5px 8px black;
+  transition: 1s;
+}
+
+.contact-card {
+  height: 482px;
+  width: 782px;
+  background-color: #403e38;
+  border-radius: 17px;
+}
+
