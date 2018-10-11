@@ -17,9 +17,17 @@ class Contact extends Component {
             <p className="contact-name">
               Jack Laird
             </p>
-            <p>Email: Jack.laird0@gmail.com</p>
-            <p>Phone: 719-290-7764</p>
-            <p></p>
+            <div className="contact-info">
+              <p>Email: Jack.laird0@gmail.com</p>
+              <p>Phone: 719-290-7764</p>
+              <a
+              href="https://www.linkedin.com/in/jack-laird/"
+              className="resource-link"
+              target="_blank"
+              >
+              linkedin
+              </a>
+            </div>
           </div>
         </div>
        
